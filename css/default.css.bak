@@ -1,0 +1,7 @@
+body{
+  background-color: #6CABB0;
+}
+
+*{
+  font-family: 'Sunflower', sans-serif;
+}

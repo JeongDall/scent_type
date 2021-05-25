@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Scent of may">
+  <meta name="keywords" content="당신과 어울리는 향은?">
+  <meta name="description" content="당신과 어울리는 향은?">
+
+  <!-- sns share -->
+  <meta property="og:url" content="https://yourscenttype.netlify.app/" />
+  <meta property="og:title" content="향으로 알아보는 성격테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/mainimage.gif" />
+  <meta property="og:description" content="향으로 알아보는 성격테스트" />
+
+  <title>당신과 어울리는 향은?</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "../css/default.css">
+  <link rel = "stylesheet" href = "../css/result.css">
+ </head>
+
+ <body>
+   <div class="container">
+	  <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+		<h7>당신과 어울리는 향기는...</h7>
+		<div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+		<img src="../img/image-13.png" alt="13" class="img-fluid">
+		</div>
+		<div class="resultname my-3">
+		 <p>
+		  머스크
+		 </p>
+		</div>
+		<div class="resultDesc">
+		  <p>
+			머스크는 향수의 무게를 더해주는 무게감 있는 향으로, 체계적이고 논리적이며 분명하고 객관적 기준으로 판단하는 것을 선호하는 당신이 좋아할 향이라고 생각합니다. 이 향은 살짝 거칠은 느낌이 있는데 고집이 있고 직설적인 스타일인 당신의 모습과 아주 비슷한 부분이 있네요. 은근히 우아한 느낌을 주는 향이기도 해서 은근히 기품 있는 리더의 자질이 보이는 당신과 잘 어울릴 것입니다.
+		  </p>
+		</div>
+		<script type="text/javascript">
+		  function moveHome(){
+		    location.href = "https://yourscenttype.netlify.app";
+		  }
+		  
+		</script>
+		<button type="button" class="gohome mt-3" onclick="js:moveHome()">참여하기</button>
+	   </section>
+   </div>
+ </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Scent of may">
+  <meta name="keywords" content="당신과 어울리는 향은?">
+  <meta name="description" content="당신과 어울리는 향은?">
+
+  <!-- sns share -->
+  <meta property="og:url" content="https://yourscenttype.netlify.app/" />
+  <meta property="og:title" content="향으로 알아보는 성격테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/mainimage.gif" />
+  <meta property="og:description" content="향으로 알아보는 성격테스트" />
+
+  <title>당신과 어울리는 향은?</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "../css/default.css">
+  <link rel = "stylesheet" href = "../css/result.css">
+ </head>
+
+ <body>
+   <div class="container">
+	  <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+		<h7>당신과 어울리는 향기는...</h7>
+		<div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+		<img src="../img/image-1.png" alt="1" class="img-fluid">
+		</div>
+		<div class="resultname my-3">
+		 <p>
+		  알데히드
+		 </p>
+		</div>
+		<div class="resultDesc">
+		  <p>
+			알데히드는 천연 또는 인공 원료로부터 얻은 유기 화합물을 조합한 향입니다. 퓨어한 상태에서는 강렬하고 자극적인 향이지만, 희석되면 숨겨져있던 우아하고 벨베티한 부드러운 느낌이 드러나는 향입니다. 자기 신념이 확고하고 주관이 뚜렷해 굉장히 강해보이지만, 속은 누구보다 여리고 따뜻한 당신의 모습과 닮지 않았나요? 이 향은 조향 시에 세심한 주의를 취할 필요가 있는데, 꼼꼼하고 세심하며 계획을 잘 세우고 일을 철두철미하게 하는 당신이라면 충분히 매력적인 향으로 만들 수 있을 것 같아요.
+		  </p>
+		</div>
+		<script type="text/javascript">
+		  function moveHome(){
+		    location.href = "https://yourscenttype.netlify.app";
+		  }
+		  
+		</script>
+		<button type="button" class="gohome mt-3" onclick="js:moveHome()">참여하기</button>
+	   </section>
+   </div>
+ </body>
+</html>
