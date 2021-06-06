@@ -1,4 +1,4 @@
-const url = 'https://yourscenttype.netlify.app/';
+const url = 'https://yourscenttype.ga/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');

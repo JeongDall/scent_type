@@ -1,10 +1,10 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-const endPoint = 12; 
+const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-//메인화면에서 질문화면으로 전환
+
 function begin(){
 	main.style.WebkitAnimation = "fadeOut 1s";
 	main.style.animation = "fadeOut 1s";
@@ -15,7 +15,7 @@ function begin(){
 			main.style.display = "none";
 			qna.style.display = "block";
 		}, 450)
-        let qIdx = 0;   
+        let qIdx = 0;
 		goNext(qIdx);
 	}, 450);
 }
@@ -25,22 +25,22 @@ function goNext(qIdx){
 		goResult();
 		return;
 	}
-      //qbox에 질문이 나오게 함.
+
 	var q = document.querySelector('.qBox');
 	q.innerHTML = qnaList[qIdx].q;
 	for(let i in qnaList[qIdx].a){
 		addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
 	}
-	//진행상황을 알려줄 상태바 만들어줌.
+
 	var status = document.querySelector('.statusBar');
 	status.style.width = (100/endPoint) * (qIdx+1) + '%';
-	//페이지 번호를 표시함.
+
 	var pN = document.querySelector('.pageNumber');
 	pN.innerHTML = qnaList[qIdx].n;
 
 }
 
-//answerbox에 버튼형 선택지를 만듦.
+
 function addAnswer(answerText, qIdx, idx){
 	var a = document.querySelector('.answerBox');
 	var answer = document.createElement('button');
@@ -49,11 +49,11 @@ function addAnswer(answerText, qIdx, idx){
 	answer.classList.add('py-3');
 	answer.classList.add('mx-auto');
 	answer.classList.add('fadeIn');
-	
+
 	a.appendChild(answer);
 	answer.innerHTML = answerText;
 
- //선택지를 누르면 사라지고 다음 질문으로 넘어가게 함.
+
 	answer.addEventListener("click", function(){
 		var children = document.querySelectorAll('.answerList');
 		for(let i = 0; i < children.length; i++){
