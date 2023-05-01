@@ -1,4 +1,4 @@
-const url = 'https://yourscenttype.ga/';
+const url = 'https://yourscenttype.shop/';
 
 function setShare(){
   var resultImg = document.querySelector('#resultImg');

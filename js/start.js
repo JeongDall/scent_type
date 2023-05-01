@@ -98,7 +98,8 @@ function setResult(){
 	resultDesc.innerHTML = infoList[point].desc;
 }
 
-function goResult(){
+
+function goResult(){     
 	qna.style.WebkitAnimation = "fadeOut 1s";
 	qna.style.animation = "fadeOut 1s";
 	setTimeout(() => {
